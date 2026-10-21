@@ -1,0 +1,5 @@
+match_id,match_date,kickoff_time_utc,home_score,away_score,home_team,away_team,goal_diff,alerta
+9,2026-06-14,15:00,7,1,Germany               ,Curaçao               ,6,GOLEADA (2026-06-14): Germany 7-1 Curaçao
+27,2026-06-18,21:00,6,0,Canada                ,Qatar                 ,6,GOLEADA (2026-06-18): Canada 6-0 Qatar
+45,2026-06-23,15:00,5,0,Portugal              ,Uzbekistan            ,5,GOLEADA (2026-06-23): Portugal 5-0 Uzbekistan
+66,2026-06-26,18:00,5,0,Senegal               ,Iraq                  ,5,GOLEADA (2026-06-26): Senegal 5-0 Iraq
