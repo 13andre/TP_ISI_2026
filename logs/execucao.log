@@ -62,3 +62,74 @@
 2026-10-21 15:59:35.086 - Kitchen - Finished!
 2026-10-21 15:59:35.086 - Kitchen - Start=2026/10/21 15:59:33.007, Stop=2026/10/21 15:59:35.086
 2026-10-21 15:59:35.087 - Kitchen - Processing ended after 2 seconds.
+2026-10-21 16:40:01.369 - Kitchen - Logging is at level : Basic
+2026-10-21 16:40:01.387 - Kitchen - Start of run.
+2026-10-21 16:40:03.859 - main_job - Start of job execution
+2026-10-21 16:40:04.026 - main_job - Starting entry [fase1]
+2026-10-21 16:40:04.146 - fase1 - Using run configuration [Pentaho local]
+2026-10-21 16:40:04.169 - Carte - Installing timer to purge stale objects after 1440 minutes.
+2026-10-21 16:40:04.171 - fase1_csv - Expedindo in?cio para transforma??o [fase1_csv]
+2026-10-21 16:40:04.205 - save tornement_stages.0 - Connected to database [mundial2026] (commit=1000)
+2026-10-21 16:40:04.205 - save teams.0 - Connected to database [mundial2026] (commit=1000)
+2026-10-21 16:40:04.205 - save venues.0 - Connected to database [mundial2026] (commit=1000)
+2026-10-21 16:40:04.205 - save stg_matches.0 - Connected to database [mundial2026] (commit=1000)
+2026-10-21 16:40:04.205 - save match_events.0 - Connected to database [mundial2026] (commit=1000)
+2026-10-21 16:40:04.241 - venues.0 - Header row skipped in file 'file:///C:/Users/André/isi-tp1/workflows/../raw/venues.csv'
+2026-10-21 16:40:04.241 - match_events.0 - Header row skipped in file 'file:///C:/Users/André/isi-tp1/workflows/../raw/match_events.csv'
+2026-10-21 16:40:04.241 - teams.0 - Header row skipped in file 'file:///C:/Users/André/isi-tp1/workflows/../raw/teams.csv'
+2026-10-21 16:40:04.241 - matches.0 - Header row skipped in file 'file:///C:/Users/André/isi-tp1/workflows/../raw/matches.csv'
+2026-10-21 16:40:04.241 - tournament_stages.0 - Header row skipped in file 'file:///C:/Users/André/isi-tp1/workflows/../raw/tournament_stages.csv'
+2026-10-21 16:40:04.245 - tournament_stages.0 - Finished processing (I=8, O=0, R=0, W=7, U=0, E=0)
+2026-10-21 16:40:04.245 - venues.0 - Finished processing (I=17, O=0, R=0, W=16, U=0, E=0)
+2026-10-21 16:40:04.247 - teams.0 - Finished processing (I=49, O=0, R=0, W=48, U=0, E=0)
+2026-10-21 16:40:04.251 - matches.0 - Finished processing (I=105, O=0, R=0, W=104, U=0, E=0)
+2026-10-21 16:40:04.256 - match_events.0 - Finished processing (I=602, O=0, R=0, W=601, U=0, E=0)
+2026-10-21 16:40:05.048 - save teams.0 - Finished processing (I=0, O=48, R=48, W=48, U=0, E=0)
+2026-10-21 16:40:05.048 - save tornement_stages.0 - Finished processing (I=0, O=7, R=7, W=7, U=0, E=0)
+2026-10-21 16:40:05.048 - save match_events.0 - Finished processing (I=0, O=601, R=601, W=601, U=0, E=0)
+2026-10-21 16:40:05.048 - save venues.0 - Finished processing (I=0, O=16, R=16, W=16, U=0, E=0)
+2026-10-21 16:40:05.074 - save stg_matches.0 - Finished processing (I=0, O=104, R=104, W=104, U=0, E=0)
+2026-10-21 16:40:05.082 - main_job - Starting entry [fase1_json]
+2026-10-21 16:40:05.123 - fase1_json - Using run configuration [Pentaho local]
+2026-10-21 16:40:05.124 - fase1_json - Expedindo in?cio para transforma??o [fase1_json]
+2026-10-21 16:40:05.132 - Table output.0 - Connected to database [mundial2026] (commit=1000)
+2026-10-21 16:40:05.198 - ler jogos JSON.0 - Finished processing (I=104, O=0, R=0, W=104, U=0, E=0)
+2026-10-21 16:40:05.322 - Table output.0 - Finished processing (I=0, O=104, R=104, W=104, U=0, E=0)
+2026-10-21 16:40:05.326 - main_job - Starting entry [fase 2]
+2026-10-21 16:40:05.399 - fase 2 - Using run configuration [Pentaho local]
+2026-10-21 16:40:05.401 - fase2_classificacao.ktr - Expedindo in?cio para transforma??o [fase2_classificacao.ktr]
+2026-10-21 16:40:05.441 - Table output.0 - Connected to database [mundial2026] (commit=1000)
+2026-10-21 16:40:05.616 - Ler selecoes.0 - Finished reading query, closing connection
+2026-10-21 16:40:05.619 - Ler selecoes.0 - Finished processing (I=48, O=0, R=0, W=48, U=0, E=0)
+2026-10-21 16:40:05.624 - Ler jogos da fase de grupos.0 - Finished reading query, closing connection
+2026-10-21 16:40:05.627 - Ler jogos da fase de grupos.0 - Finished processing (I=72, O=0, R=0, W=144, U=0, E=0)
+2026-10-21 16:40:05.642 - home_team.0 - Finished processing (I=0, O=0, R=72, W=72, U=0, E=0)
+2026-10-21 16:40:05.644 - away_team.0 - Finished processing (I=0, O=0, R=72, W=72, U=0, E=0)
+2026-10-21 16:40:05.954 - join_teams.0 - Finished processing (I=0, O=0, R=144, W=144, U=0, E=0)
+2026-10-21 16:40:05.967 - points.0 - Finished processing (I=0, O=0, R=144, W=144, U=0, E=0)
+2026-10-21 16:40:05.982 - Stream lookup.0 - Finished processing (I=0, O=0, R=192, W=144, U=0, E=0)
+2026-10-21 16:40:05.983 - Sort rows.0 - Finished processing (I=0, O=0, R=144, W=144, U=0, E=0)
+2026-10-21 16:40:05.999 - Group by.0 - Finished processing (I=0, O=0, R=144, W=48, U=0, E=0)
+2026-10-21 16:40:06.003 - ranking_stands.0 - Finished processing (I=0, O=0, R=48, W=48, U=0, E=0)
+2026-10-21 16:40:06.013 - Add value fields changing sequence.0 - Finished processing (I=0, O=0, R=48, W=48, U=0, E=0)
+2026-10-21 16:40:06.026 - Table output.0 - Finished processing (I=0, O=48, R=48, W=48, U=0, E=0)
+2026-10-21 16:40:06.027 - main_job - Starting entry [fase 3]
+2026-10-21 16:40:06.052 - fase 3 - Using run configuration [Pentaho local]
+2026-10-21 16:40:06.053 - fase3_exportacao - Expedindo in?cio para transforma??o [fase3_exportacao]
+2026-10-21 16:40:06.079 - export XML.0 - Opening output stream in encoding: UTF-8
+2026-10-21 16:40:06.216 - Ler classificacao.0 - Finished reading query, closing connection
+2026-10-21 16:40:06.219 - Ler classificacao.0 - Finished processing (I=48, O=0, R=0, W=144, U=0, E=0)
+2026-10-21 16:40:06.231 - export CSV.0 - Finished processing (I=0, O=49, R=48, W=48, U=0, E=0)
+2026-10-21 16:40:06.233 - export JSON.0 - Finished processing (I=0, O=48, R=48, W=48, U=0, E=0)
+2026-10-21 16:40:06.233 - export XML.0 - Finished processing (I=0, O=48, R=48, W=48, U=0, E=0)
+2026-10-21 16:40:06.235 - main_job - Starting entry [Write to log]
+2026-10-21 16:40:06.237 -  - Processo ETL concluído: classificação gerada e exportada
+2026-10-21 16:40:06.238 - main_job - Finished job entry [Write to log] (result=[true])
+2026-10-21 16:40:06.239 - main_job - Finished job entry [fase 3] (result=[true])
+2026-10-21 16:40:06.239 - main_job - Finished job entry [fase 2] (result=[true])
+2026-10-21 16:40:06.239 - main_job - Finished job entry [fase1_json] (result=[true])
+2026-10-21 16:40:06.239 - main_job - Finished job entry [fase1] (result=[true])
+2026-10-21 16:40:06.240 - main_job - Job execution finished
+2026-10-21 16:40:06.244 - Kitchen - Finished!
+2026-10-21 16:40:06.245 - Kitchen - Start=2026/10/21 16:40:03.849, Stop=2026/10/21 16:40:06.245
+2026-10-21 16:40:06.245 - Kitchen - Processing ended after 2 seconds.
