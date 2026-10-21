@@ -540,7 +540,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>C:\Users\André\isi-tp1\raw\match_events.csv</filename>
+    <filename>${Internal.Entry.Current.Directory}/../raw/match_events.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -647,7 +647,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>C:\Users\André\isi-tp1\raw\matches.csv</filename>
+    <filename>${Internal.Entry.Current.Directory}/../raw/matches.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -1095,7 +1095,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>C:\Users\André\isi-tp1\raw\teams.csv</filename>
+    <filename>${Internal.Entry.Current.Directory}/../raw/teams.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -1224,7 +1224,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>C:\Users\André\isi-tp1\raw\tournament_stages.csv</filename>
+    <filename>${Internal.Entry.Current.Directory}/../raw/tournament_stages.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -1298,7 +1298,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>C:\Users\André\isi-tp1\raw\venues.csv</filename>
+    <filename>${Internal.Entry.Current.Directory}/../raw/venues.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
